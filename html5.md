@@ -26,4 +26,11 @@ commonly use attributes
     alt- specifies alternative text for image, when image can't be displayed
     href- specifies the URL for a link
     style- specifies an inline CSS style for an element
-    
+
+
+Tables
+- A table is defined with a <table> tag
+- Each table row is defined with the <tr> tag
+- A table header is defined with the <th> tag
+    - by default, table headings are bold and centered
+- A table data/cell is defined with the <td> tag
