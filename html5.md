@@ -34,3 +34,45 @@ Tables
 - A table header is defined with the <th> tag
     - by default, table headings are bold and centered
 - A table data/cell is defined with the <td> tag
+
+Advanced Concepts
+Forms are how we get input from user
+Objectives
+    use the <form> tag
+    use the <input> tag
+    use the <label> tag
+    writing simple validations
+
+The <form> tag
+    a container for inputs
+    "action" attribute - URL to send form data to
+    "method" Attribute - type of HTTP request
+        GET request
+        POST request
+    Block-level element
+    <form action="" method=""> All imputs go here</form>
+
+The <input> TAG
+    content that goes inside the <form> tag
+    <input> is a self-closing tag and an inline element
+    commonly used input types
+        text
+        email
+        password
+        date
+        color
+        file
+        checkbox
+        radio
+
+The <label> TAG
+    allow us to add captions to individual elements in a form
+    two ways of using labels
+        <input> nested inside <label>
+        using "for" and "id" attributes
+            <lebel>
+                username:
+                <input type="text" placeholder="username>
+            </label>
+        <label for="username">username:</label>
+        <input id="username type="text" placeholder="username">
