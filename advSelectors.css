@@ -1,0 +1,39 @@
+
+/* star selector - selects everything*/
+*{
+    border: 1px solid green;
+}
+
+/*descendant Selector - take 2 or more tag names (selectors) and chains them together*/
+li a{
+    color: blue;
+}
+
+/*Adjacent Selector - lets us select elements that come after another element; not a descendant, but a sibling */
+
+h4 + ul{
+    border: 4px solid orange;
+}
+
+/*Attribute Selector - a way to select elements based off of any attribute*/
+a[href="http://facebook.com"] {
+    background: rgb(23,234,43);
+}
+
+/*nth of type - it takes a number and selects every nth of a specific element */
+
+ul:nth-of-type(3){
+    background: purple;
+}
+
+li:nth-of-type(3){
+    background: pink;
+}
+
+li:nth-of-type(even){
+    background: cyan;
+}
+
+li:nth-of-type(odd){
+    text-transform: uppercase;
+}

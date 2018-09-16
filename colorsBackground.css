@@ -1,0 +1,21 @@
+body{
+    color: rgb(23,212,56);
+    background-image: url("img_8055.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #ff0000;
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid;
+
+    or border: 5px solid purple;
+
+}
+
+h4 {
+    color: rgb(21, 190, 63);
+    background: rgb(223,213,124)
+}

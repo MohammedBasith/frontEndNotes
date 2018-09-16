@@ -1,0 +1,21 @@
+body {
+    color: red;
+}
+
+ul {
+    color: purple;
+}
+
+li{
+    color: blue;
+}
+/*decendant takes presidense over parent*/
+
+.highlight{
+    background: gray;
+    color: orange;
+}
+
+#special{
+    color: green;
+}
