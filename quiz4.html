@@ -5,24 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz4</title>
+    <link rel="stylesheet" href="quiz4.css">
 </head>
+<style>
+    h1{
+        color: green;
+    }
+</style>
 <body>
-    <h1>Register</h1>
+    <h1> Register</h1>
 
-    <label for="name">First Name:</label>
-    <input type="first name" id="name" placeholder="John">
-    <label for="name">Last Name:</label>
-    <input type="last name" id="name" placeholder="Smith">
+    <label for="firstName">First Name:</label>
+    <input type="firstName" id="firstName" placeholder="John">
+    <label for="lastName">Last Name:</label>
+    <input type="lastName" id="lastName" placeholder="Smith">
 
     <br>
     <br>
 <form action=""></form>
-    <label for="Male">Male</label>
-    <input type="radio" id="male" name="Male" value="Male">
-    <label for="Female">Female</label>
-    <input type="radio" id="female" name="Female" value="Female">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" required>
     <label for="other">Other</label>
-    <input type="radio" id="other" name="Other" value="Other">
+    <input type="radio" id="other" name="gender" value="other" required>
 <br>
 <br>
 
@@ -33,12 +39,14 @@
 <br>
 <br>
 <label for="birthday">Birthday:</label>
-<select name="month" id="Month:" aria-placeholder="Month">
+<select name="month" id="month:">
+    <option value="" disabled selected>Month</option>
     <option value="">Jan</option>
     <option value="">Feb</option>
     <option value="">Mar</option>
 </select>
 <select name="day" id="Day">
+    <option value="" disabled selected>Day</option>
     <option value="">1</option>
 <option value="">2</option>
 <option value="">3</option>
@@ -46,13 +54,14 @@
 </select>
 
 <select name="year" id="Year">
+    <option value="" selected disabled>Year</option>
     <option value="">1991</option>
     <option value="">1992</option>
     <option value="">1993</option>
     <option value="">1994</option>
 </select>
 
-<p>I agree to the terms and conditoins <input type="checkbox"> <input type="Submit"></p>
+<p>I agree to the terms and conditoins <input type="checkbox" required> <input type="Submit"></p>
 
 
 
