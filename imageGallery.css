@@ -1,0 +1,22 @@
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 1.6666667%;
+    border-bottom: 2px solid black;
+    width: 40%;
+    padding-bottom: 20px;
+
+}
+
+img{
+    width: 30%;
+    /* 30% relative to the parent element which here is "body" size */
+
+    /* 100% - (3 images * 30%) = 10%
+    3x3 grid, have 6 margins, 2 sides per image
+    10%/6 = 1.666666....%
+    */
+    float: left;
+    margin: 1.6666667%;
+}
