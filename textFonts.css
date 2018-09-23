@@ -1,0 +1,55 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+body{
+    font-size: 10 px;
+}
+
+h1{
+    /*font-size: 100px;*/
+    font-size: 5em;
+    /*em is anonther way of setting font size equal to the size of the parent*/
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    font-size: 2rem;
+    /*rem is defined by the root font which is set in body*/
+}
+
+/*font-weight*/
+p{
+    font-weight: 1000;
+}
+
+/*line-height*/
+p{
+    line-height: 1.5;
+}
+
+/*textAlign*/
+h1{
+    text-align: center;
+}
+
+/*textDecoration*/
+.first {
+    text-decoration: underline;   t
+}
+
+.second {
+    text-decoration line-through;
+}
+
+span {
+    text-decoration overline;
+    text-decoration-color blue;
+}
