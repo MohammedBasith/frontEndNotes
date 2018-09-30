@@ -1,0 +1,58 @@
+@media(min-width: 468px) {
+    .container-1 {
+        display: flex;
+         /* will put elements side by side */
+         /* by default, boxes are all the same height */
+        /* align-items: flex-start; */
+        /* align-items: center; -default setting */
+        /* align-content: flex-end; */
+    
+    }
+    
+    .container-2{
+        display: flex;
+        /* justify-content: space-between; */
+        /* justify-content: flex-start; - all content to the left */
+    /* justify-content: flex-end; - all content to the right */
+    /* justify-content: center; - puts into the center, right and left */
+    /* justify-content:  space-around; - space all around */
+        justify-content: space-around;
+    
+    }
+
+}
+
+.container-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* setup */
+.container-1 div, .container-2 div, .container-3 div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+
+.box-1{
+    flex: 2;
+    order: 3;
+}
+
+.box-2{
+    flex: 1;
+    order: 1;
+}
+
+.box-3{
+    flex: 2;
+    order: 2;
+}
+
+.container-2 div{
+    width: 25%;
+}
+
+.box-7{
+    flex-basis: 12%;
+}
