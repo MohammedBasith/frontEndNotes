@@ -19,6 +19,8 @@ CSS Grid vs Flexbox
 .wrapper {
     display: grid;
     grid-template-columns: 60% 30% 10%;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    /* grid-column-gap: 1em;
+    grid-row-gap: 1em; */
+    grid-gap: 1em;
+
 }
