@@ -54,6 +54,12 @@ val = firstName.slice(-3);
 val = str.split(' ');
 val = tags.split(',');
 
+// replace() -
+val = str.replace('dev','Developer');
+
+// includes() - gives a true/false value vased on if something's in the string
+val = str.includes('Hello');
+
 
 // output
 console.log(val);
